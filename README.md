@@ -6,13 +6,10 @@
 [![Website Badge](https://stackoverflow.com/users/story/14606513)
 
 I'm
-Full Stack Aspirant !!
-The crossover between design and programming has always been of interest to me, I've been lucky enough to work alongside some talented teams on a number of high profile websites. I have a wide range of skills that include back-end development using open source technologies (NodeJs, Python), design (working closely with designers), front-end development (React, Angular9, ReactJs, HTML5, CSS3, Javascript, Responsive, UX), Server Administrator(AWS, GCP, Azure),database(MongoDB,cassendra,Mysql), CI/CD(Docker, kubernetes)
 
-
-![Visitor Count](https://profile-counter.glitch.me/aakashdeveloper/count.svg)
-
-<div>
+A six year experienced inspiring optimist, with handsome in DotNet based Web, Windows and dataintergrations solution development. And now exploring and expanding experties towards latest web development frameworks across all stacks - front-end development (Angular9 , HTML5, CSS); middleware(.Net code C#, NodeJs); database(MongoDB,cassendra,Mysql); CI/CD(Docker, kubernetes); Server Administrator(Heraku); Testing frame works (NUnit, Jasmine, Karma).
+ 
+ <div>
   <h4>🏆 Github Profile Trophy</h4>
   <a href="https://github.com/ryo-ma/github-profile-trophy">
     <img src="https://github-profile-trophy.vercel.app/?username=aakashdeveloper&column=7"/>
