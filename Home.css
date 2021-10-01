@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(117, 158, 163);
+}
+#Card1{
+    background-color: rgb(28, 35, 36);
+    padding: 2%;
+    margin: 2%;
+    color: seagreen;
+    border-radius: 25px;
+}
+#IntroCard{
+    background-color: rgb(41, 88, 65);
+    padding: 2%;
+    margin: 2%;
+    color: rgb(169, 236, 183);
+    border-radius: 25px;
+    width: 20%;
+    height: 80%;
+}
+#IntroCard.h1{
+    margin: auto;
+}
+#MainCard{
+    display:inline;
+    width: 60%;
+    height: 100px;
+    background-color: rgb(41, 88, 65);
+    color: rgb(169, 236, 183);
+}
