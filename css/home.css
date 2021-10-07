@@ -1,0 +1,190 @@
+body{
+    margin: auto;
+    background-color: #d0d1d3;
+}
+#header{
+        position: absolute; 
+        z-index: 10;
+        background: transparent;
+        width: 100%;
+       }
+.carousel-control{
+    opacity: 0;
+}
+.simage{
+    height:500px !important;
+    width:80%;
+    margin: auto;
+}
+.navbar{
+    background-color: #124957;
+    border-radius: 0%;
+    color: white;
+}
+#edunav a{
+    color:white;
+}
+#mySlider{
+    margin-top: -1.5%;
+}
+
+#brand{
+    display: inline-block;
+    margin-left:5%;
+    font-size:30px;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.social{
+    display: inline-block;
+    margin-left:75%
+}
+
+.socialIcon{
+    height:50px;
+    width:50px
+}
+
+#logo{
+    height:150px;
+    width:150px;
+    background-color:white;
+    margin-left:45%;
+    margin-top:4%;
+    border-radius: 50%;
+    font-size:110px;
+    text-align: center;
+    animation: movelogo 30s infinite;
+}
+
+
+@keyframes movelogo{
+    0% {margin-left:40%;color:#6549a7;}
+    25% {margin-left:45%;color:#5890bd;}
+    50% {margin-left:50%;color:#69be50;}
+    75% {margin-left:40%;color:#87d851;}
+    80% {margin-left:45%;color:#e0e255;}
+    90% {margin-left:50%;color:#e9bf4c;}
+    100% {margin-left:45%;color:#e25954;}
+}
+
+#logo > span{
+    margin-top:0%;
+    margin-left:-2%;
+    position: absolute;
+    /* color:#124957; */
+}
+
+#heading{
+    background-color:#124957;
+    color: white;
+    font-size:30px;
+    text-align: center;
+    margin: auto;
+    margin-top:2%;
+    width:35%;
+    border-radius: 25px;
+}
+
+.dropdowns{
+    height:60px;
+    width:30%;
+    margin: auto;
+    margin-top:4%;
+}
+.dropdown{
+    display: inline;
+}
+#DrpDwnButton
+{
+    margin-left:6%;
+    width:35%;
+}
+
+
+select{
+    height: 60px;
+    width:49%;
+    font-size:20px
+}
+
+#QuickSearch{
+    width:80%;
+    margin-left:10%;
+    margin-top: 2%;
+    margin-bottom: 5px;
+}
+
+#QuickHeading{
+    color:#192f60;
+    font-size:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    display: block;
+    margin-left: 2%;
+}
+
+#QuickSubHeading{
+    color:gray;
+    font-size:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    line-height: 2;
+    margin-left: 2%;
+}
+
+.tileContainer{
+    /* height:180px;
+    width:30%;
+    display: inline-block; 
+    margin-top: 2%;
+    margin-left: 2%;
+     box-shadow:10px 15px 20px rgb(155, 231, 241); */
+     padding: .5%;
+} 
+
+.tileContainer:hover{
+    /*transform: scale(1.1);
+     transform: rotate(70deg)
+     transform: skewY(40deg);
+     transform: scale(1.1);*/
+     background-color: #124957;
+}
+
+footer{
+    text-align: center;
+    font-size:30px;
+}
+
+.tileComponent1{
+    width:46%;
+    float:left;
+}
+
+.tileComponent1 > img{
+    width:100%;
+    height:180px
+}
+.tileComponent2{
+    width:46%;
+    float:left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.componentHeading{
+    font-size:25px;
+    font-weight:bold;
+    color:#6b9d03;
+}
+
+.componentSubHeading{
+    color:gray;
+    font-size:18px;
+}
+
+.componentHeading > a{
+    text-decoration: none;
+    color:#6b9d03;
+    cursor: pointer;
+}
