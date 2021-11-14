@@ -1,6 +1,5 @@
 body{
     background-color: #1f1f30;
-    height: 800px;
 }
 
 .card {
@@ -337,11 +336,13 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 .Weathercontainer {
-    height: 20rem;
+    height: 6rem;
     width: 15rem;
-    background-color: rgb(152, 228, 165);
+    /* background-color: rgb(152, 228, 165); */
+    background-color: rgb(76, 205, 228);
     text-align: center;
     padding-top: 12px;
     border-radius: 16px;
-    border: 2px solid rgb(14, 43, 1);
+    border: 2px solid rgb(153, 210, 228);
+    backdrop-filter: blur(5px);
 }

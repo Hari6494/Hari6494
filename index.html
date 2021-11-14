@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="./css/clock.css">
     <link rel="stylesheet" href="./css/index.css">
     <script src="./javaScript/clock.js"></script>
+    <script src="./javaScript/Weather.js" charset="UTF-8"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
     <!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script> -->
@@ -29,10 +30,10 @@
                         </div>
                         <div class="center">
                             <ul class="social-network social-circle">
-                                <li><a href="#" class="icoFacebook Soc" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#" class="icoTwitter Soc" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.facebook.com/profile.php?id=100002632073986" class="icoFacebook Soc" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/Hari6494" class="icoTwitter Soc" title="Twitter"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="#" class="icoGoogle Soc" title="Google +"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a href="#" class="icoInstagram Soc" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.instagram.com/Hariprasad_Soundaradurai/" class="icoInstagram Soc" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                             </ul>
                         </div>
                         <!-- <div class="bottom">
@@ -59,10 +60,10 @@
            
         </div>
         <div class="Weathercontainer">
-            <div class="icon">---</div>
-            <div class="temp">-°C</div>
-            <div class="summary">----</div>
-            <div class="location"></div>
+            <div class="icon" id = "icon">---</div>
+            <div class="temp" id ="temp"> Temperature Loading...</div>
+            <div class="summary" id = "summary">----</div>
+            <div class="loc" id="loc"></div>
             </div>
         <div id ="ClockDiv">
             <div id="clockContainer">
