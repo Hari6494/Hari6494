@@ -346,3 +346,18 @@ a.socialIcon:hover, .socialHoverClass {
     border: 2px solid rgb(153, 210, 228);
     backdrop-filter: blur(5px);
 }
+
+.CarouselImage{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+height: 325px;
+}
+
+#myCarousel{
+    width: 70%;
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
+}

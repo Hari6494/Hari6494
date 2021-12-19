@@ -44,3 +44,8 @@ if (navigator.geolocation) {
 	});
 }
 });
+
+
+function OnPageLoadFun() {
+	alert("Page under Construction -- last updated on 19-12-2021.");
+  };
