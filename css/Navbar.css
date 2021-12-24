@@ -8,7 +8,8 @@
 }
 :root
 {
-    --clr:#222327;
+    --clr:#222327; 
+    
 }
 body
 {
@@ -17,21 +18,46 @@ body
     align-items:center;
     min-height: 100vh;
     background: var(--clr);
+    /* --clr:#222327; */
+    background: linear-gradient(to bottom,#222327 0%,
+                                        #222327 10%, 
+                                        #184e77 15% ,
+                                        #1e6091 20%,
+                                        #1a759f 30%,
+                                        #168aad 40%,
+                                        #34a0a4 50%,
+                                        #52b69a 60%,
+                                        #76c893 70%,
+                                        #99d98c 80%,
+                                        #b5e48c 90%,
+                                        #d9ed92 100%);
 }
 .navigation
 {
     position: relative;
-    /* width: 400px; */
-    width: 100%;
+    width: 400px; 
     height: 70px;
-    background: #fff;
+    /* background: #fff; */
+    background: #b5e48c ;
+    background: linear-gradient(to top,
+    #1e6091 20%,
+    #1a759f 30%,
+    #168aad 40%,
+    #34a0a4 50%,
+    #52b69a 60%,
+    #76c893 70%,
+    #99d98c 80%,
+    #b5e48c 90%,
+    #d9ed92 100%);
+    /* #8cd992; */
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
     
     position:fixed;
-    top: 50px;
+    /* top: 32px; */
+    top: 5.5%;
     width:100%;
     z-index:100;
 }
@@ -67,17 +93,19 @@ body
     font-size: 1.5em;
     text-align: center;
     transition: 0.5s;
-    color: var(--clr);
+    /* color: var(--clr); */
+    color: #222327 ;
 }
 .navigation ul li.active a .icon
 {
-    transform: translateY(-35px);
+    transform: translateY(-30px);
 }
 
 .navigation ul li a .text
 {
     position: absolute;
-    color: var(--clr);
+    /* color: var(--clr); */
+    color: #222327 ;
 font-weight: 400;
 font-size: 0.75em;
 letter-spacing: 0.05em;
@@ -95,37 +123,40 @@ transform: translateY(10px);
 {
     position: absolute;
     top: -50%;
-    width: 70px;
-    height:70px;
-    background: #29fd53;
+    width: 65px;
+    height:65px;
+    background: #c3fa5c;
     border-radius: 50%;
-    border: 6px solid var(--clr);
+    /* border: 6px solid var(--clr); */
+    border: 6px solid #222327 ;
     transition: 0.5s;
 }
 .indicator::before
 {
     content: '';
     position: absolute;
-    top:50%;
-    left:-22px;
+    top:54%;
+    left:-19px;
     width: 20px;
     height: 20px;
     background: transparent;
     border-top-right-radius: 20px;
-    box-shadow: 1px -10px 0 0 var(--clr);
+    /* box-shadow: 1px -10px 0 0 var(--clr); */
+    box-shadow: 1px -10px 0 0 #222327 ;
 }
 
 .indicator::after
 {
     content: '';
     position: absolute;
-    top:50%;
-    right:-22px;
+    top:54%;
+    right:-19px;
     width: 20px;
     height: 20px;
     background: transparent;
     border-top-left-radius: 20px;
-    box-shadow: -1px -10px 0 0 var(--clr);
+    /* box-shadow: -1px -10px 0 0 var(--clr); */
+    box-shadow: -1px -10px 0 0 #222327 ;
 }
 .navigation ul li:nth-child(1).active ~ .indicator
 {
@@ -142,4 +173,7 @@ transform: translateY(10px);
 .navigation ul li:nth-child(4).active ~ .indicator
 {
     transform: translateX(calc(70px * 3));
+}
+#PageHeader{
+    color: chartreuse;
 }
