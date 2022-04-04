@@ -55,3 +55,12 @@ background-color: #282a35;
 	opacity: 0.8;
 	background: rgb(245, 6, 6);
 }	
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+  }
+  .sticky + .content {
+	padding-top: 60px;
+  }  

@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="apple-touch-icon" sizes="180x180" href="./image/favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./image/favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./image/favicon_io/favicon-16x16.png">
+<link rel="manifest" href="./image/favicon_io/site.webmanifest">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -12,11 +16,11 @@
 <body>
   <header class="navbar justify-content-center bg-light">
       <ul class="nav nav-pills">
-        <li class="nav-item"><a href="#" class="nav-link " aria-current="page">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Contacct</a></li>
-        <li class="nav-item"><a href="#" class="nav-link active">About</a></li>
+        <!-- <li class="nav-item "><a href="#" class="nav-link list" aria-current="page">Home</a></li> -->
+        <li class="nav-item "><a href="#" onclick="TabToggle(); return false;" class="nav-link list">Name Card</a></li>
+        <li class="nav-item "><a href="#" class="nav-link list">Aspiration</a></li>
+        <li class="nav-item "><a href="#" class="nav-link list">Contact</a></li>
+        <li class="nav-item "><a href="#" class="nav-link list active">About</a></li>
       </ul>
     </header>
 <nav class="navbar navbar-dark bg-dark">
@@ -25,9 +29,10 @@
   <span class="navbar-text">hari.anbu93@gmail.com | +91-8668068791/+91-9488933484</span>  
 </div>
 </nav>
-<div class="container">
-
-
+<div class="container" id = "NameCard"></div>
+<div class="container" id = "Aspiration"></div>
+<div class="container" id = "Contact"></div>
+<div class="container" id ="Resume">
 <h3>Objective</h3>
 <hr/>
 <p>Being 6.3 yrs. an experienced inspiring optimist, I aspire to be part of an engagement that provides me an atmosphere of mutual growth and benefits, where I can show my talent and acquire new skills.</p>
@@ -275,11 +280,28 @@
 		</div>
     </div>
 </div>
+<!-- </div> -->
+
 <div id="clockContainer">
   <div id="hour"></div>
   <div id="minute"></div>
   <div id="second"></div>
 </div>
+<script>
+  const list = document.querySelectorAll('.list');
+  const tab = document.querySelectorAll('.container');
+  function activelist(){
+      list.forEach((item)=>
+      item.classList.remove('active'));
+      this.classList.add('active');
+  }
+  list.forEach((item)=>
+  item.addEventListener('click',activelist));
+
+  function TabToggle(){
+    
+  }
+</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
