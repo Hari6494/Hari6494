@@ -1,0 +1,9 @@
+Reference link :
+https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mongo-app?view=aspnetcore-6.0&tabs=visual-studio
+Mongo Connection :
+mongodb+srv://HariAdmin:HariAdmin123@cluster0.101dt.mongodb.net/test?authSource=admin&replicaSet=atlas-m87n3f-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true
+
+
+Deployment Steps
+
+https://medium.com/null-exception/deploy-net-core-app-to-heroku-a22a04f107c9
