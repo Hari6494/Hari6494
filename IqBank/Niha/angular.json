@@ -71,11 +71,16 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
+            "options": {
+              "proxyConfig": "src/proxy.conf.json"
+            },
             "production": {
-              "browserTarget": "Niha:build:production"
+              "browserTarget": "Niha:build:production",
+              "proxyConfig": "src/proxy.conf.json"
             },
             "development": {
-              "browserTarget": "Niha:build:development"
+              "browserTarget": "Niha:build:development",
+              "proxyConfig": "src/proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"

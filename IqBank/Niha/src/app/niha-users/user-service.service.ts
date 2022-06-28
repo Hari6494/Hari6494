@@ -15,7 +15,7 @@ apiurl : string ="https://iq-bank.herokuapp.com/api/Users";
   }
 
   ngOnInit(): void {
-    this.http.get("https://localhost:7271/api/Users")
+    this.http.get("https://iq-bank.herokuapp.com/api/Users")
     .subscribe({
       next: (result: any) => this.Users = result,
       error: (err: HttpErrorResponse) => console.log(err)

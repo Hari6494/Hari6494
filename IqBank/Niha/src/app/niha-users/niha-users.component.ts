@@ -31,7 +31,7 @@ console.log(this.userDataFromService);
   }
 
   ngOnInit(): void {
-    this.http.get("https://localhost:7271/api/Users")
+    this.http.get("https://iq-bank.herokuapp.com/api/Users")
     .subscribe({
       next: (result: any) => this.userDataSource1 = result ,
       error: (err: HttpErrorResponse) => console.log(err)

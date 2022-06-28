@@ -8,7 +8,7 @@
         class="form-control" placeholder="User Name" required>
       <br/>
       <label for="password" class="sr-only">Password</label>
-      <input type="password" id="password" name="password" [(ngModel)]="credentials.password"
+      <input type="password" id="password"  name="password" [(ngModel)]="credentials.password"
         class="form-control" placeholder="Password" required>
       <br/>
       <button class="btn btn-lg btn-primary" type="submit" [disabled]="!loginForm.valid">Log in</button>
