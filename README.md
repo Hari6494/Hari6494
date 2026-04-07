@@ -1,47 +1,51 @@
-### Hi Developer 👋
+### Hi, I'm Hariprasad Soundaradurai 👋 
 
-[![YouTube Badge]]
-[![Linkedin Badge](https://www.linkedin.com/in/hari-prasad-79a9a38a/)
-[![Website Badge](https://img.shields.io/badge/WebSite-Aakash-green)](https://www.aakash.me)
-[![Website Badge](https://stackoverflow.com/users/story/14606513)
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/hariprasad-soundaradurai-79a9a38a/)
+[![StackOverflow Badge](https://img.shields.io/badge/-StackOverflow-FE7A16?style=flat&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/14606513)
+[![Website Badge](https://img.shields.io/badge/Portfolio-Visit-green)](https://www.aakash.me)
 
-I'm
+---
 
-A six year experienced inspiring optimist, with handsome in DotNet based Web, Windows and dataintergrations solution development. And now exploring and expanding experties towards latest web development frameworks across all stacks - front-end development (Angular9 , HTML5, CSS); middleware(.Net code C#, NodeJs); database(MongoDB,cassendra,Mysql); CI/CD(Docker, kubernetes); Server Administrator(Heraku); Testing frame works (NUnit, Jasmine, Karma).
- 
- <div>
-  <h4>🏆 Github Profile Trophy</h4>
+### 👨‍💻 About Me
+
+I am a **Senior Developer** with **10 years of professional experience** in architecting and delivering enterprise-grade solutions. My expertise lies in building scalable web and data integration systems, with a current focus on **AI-Driven Website Development** and **Enterprise Process Automation**.
+
+I bridge the gap between robust legacy systems and modern innovation, ensuring high-performance deployments across the full stack.
+
+* 🔭 **Current Focus:** Architecting AI-integrated platforms and automated personal assistant ecosystems.
+* 🌱 **Expanding Expertise:** Advanced AI Architecture, Vector Databases, and Scalable Cloud Systems.
+* ⚡ **Philosophy:** Eliminating "stack sprawl" through consolidated, efficient, and cloud-native architecture.
+
+---
+
+### 🛠️ Languages and Tools
+
+| Category | Technologies |
+| :--- | :--- |
+| **Frontend** | Angular, React, HTML5, CSS3 |
+| **Backend / Middleware** | .NET Core (C#), FastAPI, Node.js |
+| **Databases** | PostgreSQL, MongoDB, MS SQL, SQLite, Databricks |
+| **DevOps & Cloud** | Docker, Kubernetes, CI/CD (Jenkins/GitHub Actions), Cloud Deployment |
+| **Testing** | NUnit, Jasmine, Karma |
+
+---
+
+### 🏆 Github Profile Trophies
+<div align="left">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=aakashdeveloper&column=7"/>
+    <img src="https://github-profile-trophy.vercel.app/?username=aakashdeveloper&column=7&theme=flat&no-bg=true" alt="Trophies" />
   </a>
 </div>
 
-Languages and Tools:
+---
 
+### 📂 Featured Projects & Focus Areas
+* **Enterprise Process Automation:** Streamlining workflows for high-scale environments.
+* **AI-Driven Management:** Developing intelligent systems for personal activity and asset tracking (EV/IC vehicles).
+* **Community Infrastructure:** Planning automated Fastag-enabled parking and residential tech solutions.
 
-<!--
-**Hari6494/Hari6494** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
-
-Plan 
-uVolunteer 
-AboutMe
-FoodCart 2 screens
-Calculator
-ContactUs
-Coupon site
-
-
-website url
+### 📫 How to reach me:
+* **Email:** [hari.anbu93@gmail.com](mailto:hari.anbu93@gmail.com)
+* **LinkedIn:** [Connect with me](https://www.linkedin.com/in/hariprasad-soundaradurai-79a9a38a/)
